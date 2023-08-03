@@ -1,0 +1,98 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(45deg, #0a0a0a, #3a4452);
+	color: aliceblue;
+}
+
+.pizza_logo{
+	position: relative;
+    width: 155px;
+}
+
+header {
+	font-size: 25px;
+    background-color: #1a1a1a;
+	color: #12bfdd;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+#home #home1{
+	color: beige;
+	font-size: 26px;
+	font-weight: bolder;
+}
+
+#home #element1{
+	color: orange;
+	font-size: 26px;
+	font-weight: bolder;
+}
+
+.image-container {
+	margin: auto;
+	width: 725px;
+	height: 225px;
+	padding: 0px;
+}
+
+.image-container {
+	width: 100%;
+	height: 100%;
+}
+
+.buttons {
+	margin-top: 30px;
+}
+
+.btn {
+	padding: 8px;
+	border-radius: 20px;
+	color: rgb(245, 178, 178);
+	background-color: rgb(71, 34, 195);
+	font-weight: bold;
+	font-size: 15px;
+	margin: 0 10px;
+	cursor: pointer;
+}
+
+.buttons .btn:hover{
+	font-size: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+}
+
+nav ul li {
+	margin: 0 10px;
+}
+
+nav ul li a {
+	color: #31c314;
+	text-decoration: none;
+}
+
+section {
+	padding: 20px;
+}
+
+section h2 {
+	margin-bottom: 20px;
+}
+
+section ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0;
+}

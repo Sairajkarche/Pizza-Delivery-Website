@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pizza Delivery Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <img src="pizza-logo.jpg" alt="" class="pizza_logo" />
+      </div>
+      <h1>Pizza Deliciouss</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <p>
+        <h1 id="home1">Welcome to Pizza Town!</h1>
+      </p>
+      <p>
+        <span id="element1"></span> 
+      </p>
+    </section>
+
+    <section id="menu">
+      <h1>Our Menu</h1>
+      <div class="image-container">
+      <ul>
+        <li>
+          <img src="1.jpg" alt="" class="img"/>
+          <h3>Cheese Pizza</h3>
+          <p>Rs.229/-</p>
+        </li>
+        <li>
+          <img src="24.jpg" alt="" class="img"/>
+          <h3>Pepperoni Pizza</h3>
+          <p>Rs.275/-</p>
+        </li>
+        <li>
+          <img src="3.jpg" alt="" class="img"/>
+          <h3>Hawaiian Pizza</h3>
+          <p>Rs.299/-</p>
+        </li>
+        <li>
+          <img src="25.jpg" alt="" class="img"/>
+          <h3>Vegetarian Pizza</h3>
+          <p>Rs.329/-</p>
+        </li>
+        <li>
+          <img src="21.jpg" alt="" class="img"/>
+          <h3>Meat Lovers Pizza</h3>
+          <p>Rs.375/-</p>
+        </li>
+        <li>
+          <img src="22.jpg" alt="" class="img"/>
+          <h3>Brick Oven Pizza</h3>
+          <p>Rs.399/-</p>
+        </li>
+        <li>
+          <img src="23.jpg" alt="" class="img"/>
+          <h3>Italian Pizza</h3>
+          <p>Rs.450/-</p>
+        </li>
+        <li>
+          <img src="24.jpg" alt="" class="img"/>
+          <h3>Sicilian Pizza</h3>
+          <p>Rs.601/-</p>
+        </li>
+        <li>
+          <img src="32.jpg" alt="" class="img"/>
+          <h3>New York-style Pizza</h3>
+          <p>Rs.445/-</p>
+        </li>
+        <li>
+          <img src="33.jpg" alt="" class="img"/>
+          <h3>Chicago-style Pizza</h3>
+          <p>Rs.475/-</p>
+        </li>
+        <li>
+          <img src="34.jpg" alt="" class="img"/>
+          <h3>Detroit-style Pizza</h3>
+          <p>Rs.501/-</p>
+        </li>
+        <li>
+          <img src="45.jpg" alt="" class="img"/>
+          <h3>California-style Pizza</h3>
+          <p>Rs.655/-</p>
+        </li>
+      </ul>
+      </div>
+      <div class="buttons">
+        <a href="#contact">
+          <button class="btn">Order Now</button>
+        </a>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        ‘Pizza Town’
+
+The key to progress is much similar to the key to improving a pizza – the more you put into it, the more you
+receive in return. Our pizza family is as eager for flawlessness today as we were at the point at which we
+originally opened our entryways over 20 years back. Also, we’re headed to be the best at making creative new
+items and formulas. Quality is at our center. It’s the establishment we began with, from the main ‘Pizza Town’
+pizza that was made in a sweeper storage room in Manhattan, IN, to now in excess of 5,000 areas in 45 nations
+and regions around the globe.
+We don’t utilize shabby and increasingly prepared fixings. Regardless of whether it’s our mark sauce, fixings,
+our unique new mixture, or even the case itself, we put resources into our fixings to guarantee that we generally
+give you the best quality pizza.
+For you, it’s not only a superior pizza. It’s a family assembly, an important birthday, a work festivity, or
+basically an incredible supper. It’s our objective to ensure you generally have the best elements for each
+event.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h1>Contact Us</h1>
+      <form>
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message"></textarea><br />
+
+        <input type="submit" value="Send" />
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Pizza Town</p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element1", {
+    strings: [
+    'Order Your Favorite Pizza Online and get it Delivered to your Doorstep!'
+    ],
+    typeSpeed: 50,
+    });
+    </script>
+  </body>
+</html>
